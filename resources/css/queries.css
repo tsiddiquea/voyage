@@ -1,0 +1,452 @@
+/* Big tablet to 1200px (width smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .main-text {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row { padding: 0 2%;}
+    
+    .box img{
+        width: 100%;
+    }
+    
+
+    
+}
+
+/* Small tablets to big tablets:(width smaller than the 1024px row)(767 to 1024px) */
+@media only screen and (max-width: 1024px) {
+    body { font-size: 16px;} 
+    section { padding: 40px 0;}
+    
+    img.responsive {
+        width: 600px;
+    }
+    
+    .intro-box {
+        text-align: center;
+        width: 90%;
+    }
+    
+    .beauties{
+        width: 90%;
+    }
+    
+    img.asia-white{
+        top: 15%;
+        left: 35%;
+    }
+    
+    p.quote-asia{
+        left: 15%;
+    }
+    
+  
+    
+    p.quote-europe{
+        left: 30%;
+    }
+    
+    p.quote-second-europe{
+        left: 18%;
+    } 
+    
+    img.europe-paste{
+        left: 40%;
+    }
+    
+    img.africa-black{
+        left: 30%;
+    }
+    
+    p.quote-africa{
+        left: 20%;
+    } 
+    
+    p.quote-second-africa{
+        left: 20%;
+    }
+    
+    p.footer-p{
+        margin-right: 20%;
+    }
+    
+    img.up{
+        margin-left: 50%;
+    }
+    
+  
+    img.bay {
+        width: 70%;
+    }
+    
+    .pica{
+        width: 90%;
+    }
+    
+    
+    .sg-p{
+        width: 74%;
+    }
+    
+    .my-p{
+        width: 74%;
+    }
+    
+    .pores {
+        width: 75%;
+    }
+    
+    .para-1 {
+        width: 80%;
+    }
+    
+    img.island {
+        width: 400px;
+    }
+    
+    .para-2 {
+        width: 80%;
+    }
+    
+    .para-3{
+        width: 80%;
+    }
+    
+    img.faber {
+        width: 800px;
+    }
+  
+    p.us {
+        width: 90%;
+    }
+    
+    img.ending {
+        width: 45%;
+    }
+    
+}
+    
+    
+   /* Small phones to small tablets: from 481px to 767px */
+    @media only screen and (max-width: 768px) {
+        
+        body{
+            font-size: 16px;
+        }
+        
+        p.us {
+            width: 65%;
+            font-size: 20px;
+        }
+        
+        img.ending {
+            width: 18%;
+        }
+        
+        .sg-p{
+        width: 60%;
+      }
+        
+        .my-p {
+            width: 60%;
+        }
+        
+        .para-1 {
+        width: 60%;
+       }
+    
+        img.island {
+        width: 300px;
+      }
+        
+        .para-2{
+            width: 60%;
+        }
+        
+        .para-3{
+            width: 60%;
+        }
+        
+        img.gardens {
+           width: 500px;
+        }
+        
+        img.faber {
+            width: 600px;
+        }
+        
+        .sia {
+            width: 60%;
+        }
+        
+        img.towers {
+            width: 600px;
+        }
+        
+        img.park {
+            width: 500px;
+        }
+        
+        .intro-box {
+            width: 65%;
+        }
+        
+        .beauties {
+            width: 70%;
+        }
+        
+     img.quote-yellow{
+            width: 500px;
+        }
+        
+        img.africa-black {
+            width: 60%;
+        }
+         
+       
+    .pica{
+        width: 60%;
+    }
+        
+        img.bay {
+            width: 600px;
+        }
+        
+        .euro{
+            width: 75%;
+        }
+        
+        .box a {
+            margin-left: 35%;
+        }
+        
+        
+   } 
+    
+   /* Small phones:(width smaller than the 480px row)(0 to 480px) */
+@media only screen and (max-width: 480px) { 
+    body{ font-size: 6px;}
+    section { padding: 25px 0;}
+    
+    p.us {
+        width: 30%;
+        font-size: 12px;
+    }
+    
+    img.ending {
+        width: -10%;
+        left: 7%;
+    }
+    
+    img.author {
+        width: 40%;
+    }
+    
+   
+    .intro-box{
+        width: 30%;
+    }
+    
+    .beauties{
+        width: 33%;
+    }
+    
+    img.asia-white{
+        width: 50%;
+        left: 25%;
+    }
+    
+    p.quote-asia{
+        font-size: 35px;
+        
+    }
+    
+    p.quote-second-asia{
+        font-size: 28px;
+     
+    }
+    
+    .btn-ghost{
+      margin-left: -15%;
+    } 
+    
+    img.europe-paste{
+        width: 50%;
+        left: 25%;
+    }
+    
+    img.quote-yellow{
+        width: 110%;
+        margin-left: -15%;
+    }
+    
+    img.africa-black{
+        width: 70%;
+        left: 20%;
+    }
+    
+    img.quote-white{
+         width: 115%;
+        margin-left: -18%;
+    }
+    
+    .fav{
+        padding-left: 15%;
+    }
+
+   a.paris,
+    a.mumbai,
+    a.nyc,
+    a.egypt {
+        margin-left: 3%;
+    }
+    
+    .choice{
+        width: 250px;
+    }
+    
+    .footer-p {
+        font-size: 10px;
+        width: 20%;
+    }
+    
+    img.responsive {
+        width: 350px;
+    }
+    
+    img.logo-white {
+        width: 300px;
+    }
+    
+    img.travel--img {
+        width: 150px;
+    }
+    
+    img.sg--img {
+        width: 200px;
+    }
+   
+    p.asia-intro {
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    img.bay {
+        width: 160px;
+    }
+    
+    .box a {
+        width: 14px;
+        font-size: 18px;
+    }
+    
+    .pica {
+        width: 33%;
+    }
+    
+    .pores {
+        width: 33%;
+    }
+    
+    .sia {
+        width: 33%;
+    }
+    
+    .sg-p {
+       width: 30%;
+        font-size: 20px;    
+        
+    }
+    
+    .my-p {
+        width: 30%;
+        font-size: 20px; 
+    }
+    
+    .sentosa,
+    .baygarden,
+    .mountfaber {
+        font-size: 30px;
+    }
+    
+    .petronas,
+    .park {
+        font-size: 22px;
+    }
+    
+    .para-1 p,
+    .para-2 p,
+    .para-3 p {
+        width: 54%;
+        font-size: 15px;
+    }
+    
+    img.island {
+        width: 180px;
+    }
+    
+    img.gardens {
+        width: 280px;
+    }
+    
+    img.faber {
+        width: 300px;
+    }
+    
+    img.towers {
+        width: 300px;
+    }
+    
+    img.park {
+        width: 330px;
+    }
+    
+    .euro {
+        width: 30%;
+        font-size: 40px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+}
+    
+    
+  /*  
+    .intro-box {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .steps-box { margin-top: 10px;}
+    .steps-box:last-child { margin-top: 10px; }
+    .works-step { margin-bottom: 40px;}
+    .works-step:last-of-type { margin-bottom: 60px;}  
+ 
+    .app-screen { width: 50%;}
+    
+    .icon-small {
+        width: 17px;
+        margin-right: 5px;
+    }
+    
+    .city-feature { font-size: 90%;}
+    
+    .plan-box { 
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .plan-price { font-size: 250%;}
+    .contact-form { width: 80%;}
+}
+*/
+

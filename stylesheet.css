@@ -1,0 +1,793 @@
+/*BISMILLAHIR RAHMANNIR RAHIM*/
+/*-------------------*/
+/*Blue color: #44a6c6*/
+/*Yellow color: #ffe302*/
+/*Dark Purple: #8B008B*/
+/*Indigo: #4B0082*/
+/*Orange:#e67e22*/
+/*Sky Blue:#55acee*/
+/*-------------------*/
+
+/*-------------------*/
+/*Basic Setup*/
+/*-------------------*/
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #242424;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/*-------------------*/
+/*Reusable Components*/
+/*-------------------*/
+.row {
+    width: 1148px;
+    margin: 0 auto;
+}
+
+/*-------------------*/
+/*Header*/
+/*-------------------*/
+.background-img {
+    background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))),url(resources/pics/blue-min.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(resources/pics/blue-min.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 91vh;
+    background-attachment: fixed;
+}
+
+.logo-white {
+    background-color: #242424;
+    margin-left: 5px;
+    margin-top: 15px;
+    float: left;
+    border-right: 2px solid #fff;
+    padding-right: 25px;
+}
+/* Main Navi*/
+.main-nav {
+    list-style: none;
+    float: left;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 32px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 1px;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 1px solid #55acee;
+    padding-bottom: 1px;
+    color: #fff;
+}
+
+
+
+.head-box {
+    height: auto;
+    width: 100%;
+    background-color: #242424;
+    padding-bottom: 10px;
+}
+
+.hero-text-box {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.second-text-box {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.third-text-box {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.last-text-box {
+    position: absolute;
+    top: 75%;
+    left: 51%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.places {
+  background-color: #242424;
+  color: #fff;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover 
+.dropdown-content {display: block;}
+
+.dropdown:hover 
+.places {background-color: #242424;}
+
+/*-------------------*/
+/*Intro*/
+/*-------------------*/
+h1 {
+    margin: 0;
+    color: #242424;
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1:after {
+    display: block;
+    height: 2px;
+    background-color: #44a6c6;
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+
+.beauties {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.intro {
+    background-color: #f4f4f4;
+}
+
+.intro-box {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    line-height: 150%;
+    
+    
+}
+
+/*-------------------*/
+/*Asia*/
+/*-------------------*/
+.asia-img {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))),url(resources/pics/thailand-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(resources/pics/thailand-min.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin-bottom: 120px;
+    margin-top: 80px;
+}
+
+.section-asia {
+    position: relative;
+}
+
+.asia-white {
+    position: absolute;
+    top: 12%;
+    left: 42%;
+}
+
+.quote-asia {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: #fff;
+    font-size: 47px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-second-asia {
+     position: absolute;
+    top: 47%;
+    left: 57%;
+    color: #fff;
+    font-size: 47px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+/*-------------------*/
+/*Europe*/
+/*-------------------*/
+.europe-img {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))),url(resources/pics/venice-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(resources/pics/venice-min.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+/*
+.section-europe {
+    background-color: #f4f4f4;
+    position: relative;
+}
+*/
+.europe {
+    background-color: #f4f4f4;
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.quote-europe {
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    color: #ffe302;
+    font-size: 47px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-second-europe {
+    position: absolute;
+    top: 49%;
+    left: 33%;
+    color: #ffe302;
+    font-size: 47px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.europe-paste {
+    position: absolute;
+    top: 21%;
+    left: 44%;
+}
+
+/*-------------------*/
+/*Africa*/
+/*-------------------*/
+
+.africa-img {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))),url(resources/pics/cape-town-resize-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url(resources/pics/cape-town-resize-min.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    margin-bottom: 120px;
+    margin-top: 80px;
+}
+
+.section-africa {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.africa-black {
+    position: absolute;
+    top: 20%;
+    left: 37%;
+}
+
+.quote-africa {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: #fff;
+    font-size: 47px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-second-africa {
+     position: absolute;
+    top: 48%;
+    left: 37%;
+    color: #fff;
+    font-size: 47px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+/*-------------------*/
+/*Top Picks*/
+/*-------------------*/
+.paris,
+.mumbai,
+.nyc,
+.egypt{
+    margin-left: 16px;
+}
+
+.section-top-picks {
+    background-color: #f4f4f4;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    
+}
+
+.up {
+    padding-left: 17%;
+    padding-bottom: 15px;
+    
+}
+
+.down {
+    padding-left: 17%;
+}
+
+.up a:link,
+.up a:visited {
+    text-decoration: none;
+    color: #8B008B;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 1px;
+    -webkit-transition: color 0.2s, border-bottom 0.2s;
+    transition: color 0.2s, border-bottom 0.2s; 
+}
+
+.up a:hover,
+.up a:active {
+    color: #4B0082; 
+    padding-bottom: 1px;
+    border-bottom: 1px solid #4B0082;
+    font-weight: 400;
+}
+
+.down a:link,
+.down a:visited {
+    text-decoration: none;
+    color: #8B008B;
+    text-transform: uppercase;
+    -webkit-transition: color 0.2s, border-bottom 0.2s;
+    transition: color 0.2s, border-bottom 0.2s;
+}
+
+.down a:hover,
+.down a:active {
+    color: #4B0082; 
+    padding-bottom: 1px;
+    border-bottom: 1px solid #4B0082;
+    font-weight: 400;
+}
+
+
+/*-------------------*/
+/*Quotation*/
+/*-------------------*/
+
+
+/*-------------------*/
+/*Buttons*/
+/*-------------------*/
+
+.btn-ghost {
+    position: absolute;
+    top: 73%;
+    left: 46%;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 8px 40px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    color: #fff;
+    -webkit-transition: background-color 0.2s, border 0.2s;
+    transition: background-color 0.2s, border 0.2s;
+}
+
+.btn-ghost:active,
+.btn-ghost:hover {
+    background-color: #242424;
+    color: #fff;
+    border: 2px solid #242424;
+}
+
+/*-------------------*/
+/*Footer*/
+/*-------------------*/
+
+footer {
+    background-color: #242424;
+    padding: 50px;
+}
+
+footer p {
+    font-size: 80%;
+    color: #fff;
+    text-align: center;
+    margin-top: 13px;
+}
+
+footer a:link,
+footer a:visited {
+    text-decoration: none;
+    color: #fff;
+    font-size: 95%;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 1px;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+footer a:hover,
+footer a:active {
+    color: #55acee;
+    border-bottom: 1px solid #55acee;
+    padding-bottom: 1px;
+    font-weight: 400;
+}
+
+/*-------------------*/
+/*About Us*/                  
+/*-------------------*/
+
+span {
+   text-decoration:underline;
+   color: #E93B81;
+    
+}
+
+.blogger {
+    background-color: #f4f4f4;
+    height: 85vh;
+    position: relative;
+}
+
+.writer {
+    padding-top: 80px;
+}
+
+.author {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.us {
+    margin-top: 75px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 180%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.ending {
+    position: relative;
+    top: 50px;
+    left: 26%;
+}
+
+
+/*-------------------*/
+/*Asia*/                  
+/*-------------------*/
+.backasia {
+    background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(resources/pics/singapore-min.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(resources/pics/singapore-min.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.travel{
+    position: absolute;
+    top: 30px;
+    left: 30%;
+    
+}
+.sg {
+    position: absolute;
+    top: 13%;
+    left: 40%;
+}
+
+.asia-p {
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 180%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: center;
+    width: 80%;
+}
+
+.arrow {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color: #fff;
+    font-size: 300%;
+}
+
+/*-------------------*/
+/*Europe*/                  
+/*-------------------*/
+
+.europe-p {
+    height: 90vh;
+    background-color: #f4f4f4;
+    margin: auto;
+}
+
+.europe-h {
+    padding-top: 15%;
+    font-size: 30px;
+}
+
+/*-------------------*/
+/*North America*/                  
+/*-------------------*/
+
+.northamerica-p {
+    height: 90vh;
+    background-color: #f4f4f4;
+    margin: auto;
+}
+
+.northamerica-h {
+    padding-top: 15%;
+    font-size: 30px;
+}
+
+/*-------------------*/
+/*Pick A Destination*/                  
+/*-------------------*/
+
+.select-destination {
+    background-color: #f4f4f4;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.box{
+    display: inline-block;
+}
+
+.box img {
+    margin-left: 10%;
+    height: auto;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.box a:link,
+.box a:visited {
+    text-decoration: none;
+    color: #000;
+    /*font-size: 25px;*/
+     margin-left: 50%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.box a:hover,
+.box a:active {
+    border-bottom: 2px solid #44a6c6;
+    padding-bottom: 2px;
+}
+
+/*-------------------*/
+/*Singapore*/                  
+/*-------------------*/
+
+.singapore {
+    background-color: #fff;
+    padding-top: 5%;
+}
+
+.sg-p {
+    margin-top: 3%;
+    /*font-size: 25px;*/
+    text-align: left;
+    font-weight: 300;
+    line-height: 180%;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+h2 {
+    font-weight: 300;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-bottom: 2px solid #44a6c6;
+    display: inline-block;
+}
+
+.sentosa,
+.baygarden,
+.mountfaber,
+.petronas,
+.park {
+    text-align: left;
+    border-bottom: 2px solid #e67e22;
+}
+
+.sentosa:after,
+.baygarden:after,
+.mountfaber:after,
+.petronas:after,
+.park:after {
+    display: none;
+}
+
+.para-1 p,
+.para-2 p,
+.para-3 p {
+    /*font-size: 20px;*/
+    line-height: 150%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.para-2 img {
+    margin-left: 2%;
+}
+
+.para-3 img {
+    margin-left: 7%;
+}
+
+.island{
+    display: inline-block;
+}
+
+/*-------------------*/
+/*Malaysia*/                  
+/*-------------------*/
+
+.malaysia {
+    background-color: #f4f4f4;
+    padding-top: 5%;
+}
+
+.my-p {
+    margin-top: 3%;
+    /*font-size: 25px;*/
+    text-align: left;
+    font-weight: 300;
+    line-height: 180%;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+
+
+.towers {
+    margin-left: 6%;
+}
+
+/*mobile nav*/
+
+.checkbtn {
+    font-size: 100px;
+    color: #fff;
+}
+
+
+/*
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef; 
+    z-index: 9999;
+}
+
+.sticky .logo-white { display: none;}
+.sticky .logo-black { display: block;}*/
+/*
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}#44a6c6
+
+\2193
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+color: #fff;
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    position: absolute;
+    top: 36%;
+    left: 28%;
+
+*/
+
+
