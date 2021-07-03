@@ -46,7 +46,6 @@ body {
     background-size: cover;
     background-position: center;
     height: 91vh;
-    background-attachment: fixed;
     image-rendering: -webkit-optimize-contrast;
 }
 
