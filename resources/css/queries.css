@@ -231,13 +231,13 @@
     section { padding: 25px 0;}
     
     p.us {
-        width: 30%;
-        font-size: 12px;
+        width: 40%;
+        font-size: 14px;
     }
     
     img.ending {
         width: -10%;
-        left: 7%;
+        left: 12%;
     }
     
     img.author {
@@ -246,7 +246,7 @@
     
    
     .intro-box{
-        width: 30%;
+        width: 40%;
     }
     
     .beauties{
